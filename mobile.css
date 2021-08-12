@@ -1,0 +1,137 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 0.5rem;
+    height: 100px;
+}
+#navbar ul {
+    margin-top: -10px;
+}
+#navbar img {
+    width: 70%;
+    height: 50%;
+}
+#logos {
+    margin-top: 50px;
+	padding-right: 500px;
+    width: 100%;
+    height: auto;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.photos {
+    margin-top: 50px;
+    position: relative;
+    width: 25%;
+	margin-right: 100px;
+}
+.image1 {
+    opacity: 1;
+    display: block;
+    min-width: 256px;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.photos:hover .image1 {
+    opacity: 0.3;
+}
+.photos:hover .middle {
+    opacity: 1;
+}
+.text {
+    color: black;
+    font-size: 50px;
+    margin-left: 140px;
+    margin-right: auto;
+    padding: 16px 32px;
+}
+.photos1 {
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+    position: relative;
+    width: 25%;
+}
+.image2 {
+    opacity: 1;
+    display: block;
+    min-width: 256px;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.photos1:hover .image2 {
+    opacity: 0.3;
+}
+.photos1:hover .middle1 {
+    opacity: 1;
+}
+.text1 {
+    color: black;
+    font-size: 50px;
+    margin-left: 140px;
+    margin-right: auto;
+    padding: 10%;
+}
+.photos2 {
+    position: relative;
+    margin-top: 50px;
+    width: 25%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.image3 {
+    opacity: 1;
+    display: block;
+    min-width: 256px;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.photos2:hover .image3 {
+    opacity: 0.3;
+}
+.photos2:hover .middle2 {
+    opacity: 1;
+}
+.text2 {
+    color: black;
+    margin-left: 120px;
+    margin-right: auto;
+    font-size: 50px;
+    padding: 16px 32px;
+}

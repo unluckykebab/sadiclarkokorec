@@ -1,0 +1,11 @@
+/*Container*/
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.pink {
+	background: white;
+}
+.bg-background-blue {
+	background: white;
+}
