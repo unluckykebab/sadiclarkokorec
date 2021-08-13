@@ -386,3 +386,8 @@ video {
 	font-size: 15px;
 		padding: 2px;
 }
+.comm a {
+    opacity: 40%;
+    text-align: center;
+    color: white;
+}
